@@ -1,0 +1,28 @@
+{
+  "known_at": "2026-10-12T00:00:00+08:00",
+  "documents": [
+    {
+      "kind": "calibration",
+      "id": "CAL-S4",
+      "revision": "r2",
+      "received_at": "2026-10-10T09:00:00+08:00",
+      "payload": {
+        "session": "S4",
+        "version": "cal-3.0",
+        "valid": false,
+        "note": "复核原始脑电后改判该版本校准无效"
+      }
+    },
+    {
+      "kind": "retraction",
+      "id": "RT-S5",
+      "revision": "r1",
+      "received_at": "2026-10-10T09:30:00+08:00",
+      "payload": {
+        "target_kind": "session",
+        "target_id": "S5",
+        "reason": "设备日志缺失，该段记录无效"
+      }
+    }
+  ]
+}
